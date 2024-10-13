@@ -52,7 +52,7 @@ final GoRouter _router = GoRouter(
       builder: (BuildContext context, GoRouterState state) {
         return TransactionListPage(
           key: UniqueKey(),
-          title: 'Cleaner Balance',
+          title: 'Clear Balance',
         );
       },
       routes: [
